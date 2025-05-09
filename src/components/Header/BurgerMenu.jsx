@@ -29,8 +29,8 @@ export function MenuResponsiveContent({ isOpen, handleToggle }) {
 export function DestktopMenu() {
     return (
         <nav
-            className="hidden md:block">
-            <ul className="flex md:flex-row justify-center items-center md:gap-5 h-full w-full text-4xl text-[#0E273C] font-bold">
+            className="hidden md:block md:grow">
+            <ul className="flex md:flex-row justify-center items-center md:gap-16 h-full w-full grow text-4xl text-[#0E273C] font-bold">
                 <li>Sobre mi</li>
                 <li>Habilidades</li>
                 <li>Proyectos</li>
