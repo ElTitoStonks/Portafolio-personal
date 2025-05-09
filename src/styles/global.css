@@ -31,6 +31,8 @@ html {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: 'Anonymous Pro', monospace;
+    font-weight: bold;
 }
