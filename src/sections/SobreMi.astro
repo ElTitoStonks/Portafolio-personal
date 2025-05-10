@@ -5,79 +5,90 @@ import Location from "../../public/images/icons/sobre-mi/Location.astro";
 import Calendar from "../../public/images/icons/sobre-mi/Calendar.astro";
 ---
 
-<section class="h-dvh w-full px-10 pt-4 bg-[#0E273C]/90 text-[#FFFFFF]">
+<section
+    class="h-dvh md:h-[50dvh] w-full px-10 pt-4 bg-[#0E273C]/90 text-[#FFFFFF]"
+>
     <div>
-        <h2 class="text-center text-4xl font-bold">Sobre mi</h2>
-        <hr class="w-1/2 mx-auto my-4 border-t-2 border-[#A167A5]" />
+        <h2 class="text-center text-4xl font-bold md:text-5xl">Sobre mi</h2>
+        <hr
+            class="w-1/2 md:w-1/4 mx-auto my-4 border-t-2 border-[#A167A5] md:mb-10"
+        />
     </div>
 
-    <!-- Div for introducion -->
-    <div>
-        <h3 class="text-3xl text-[#A167A5] font-bold mb-1">Mi historia</h3>
-        <p class="text-base">
-            Desde siempre me ha gustado el mundo de la informática. Me atrae
-            cómo la tecnología puede transformar ideas en soluciones útiles y
-            creativas para el día a día. Comencé a programar por iniciativa
-            propia, motivado por mis ganas de progresar y no quedarme estancado.
-            Investigar, probar y entender cómo funciona todo detrás de una
-            pantalla se volvió algo natural para mí. Con el tiempo, descubrí que
-            disfruto especialmente del desarrollo web. Me gusta ver cómo cada
-            detalle visual y funcional cobra vida, y siempre busco formas de
-            seguir aprendiendo y superándome con cada nuevo proyecto.
-        </p>
-    </div>
-
-    <!-- Divs of exp, Education, location, calendar -->
-    <div
-        class="grid grid-cols-1 grid-rows-4 items-center justify-items-center mt-4 gap-4"
-    >
-        <!-- Div for general info exp -->
-        <div
-            class="row-start-1 w-96 h-32 bg-[#E8D7F1] rounded-2xl shadow-[3px_6px_4px_0px] shadow-[#A167A5]/50 grid grid-rows-2 items-center px-7 pb-5"
-        >
-            <div class="flex gap-4">
-                <Exp />
-                <h4 class="text-3xl text-[#0E273C]">Experiencia</h4>
-            </div>
-
-            <p class="text-xl text-[#333333]">
-                1+ Año desarrollando aplicaciones web
+    <!-- DIV for desktop version... -->
+    <div class="md:grid md:grid-cols-2 md:grid-rows-2 md:gap-32">
+        <!-- Div for introducion -->
+        <div class="">
+            <h3 class="text-3xl md:text-4xl text-[#A167A5] font-bold mb-1">
+                Mi historia
+            </h3>
+            <p class="text-base md:text-2xl">
+                Desde siempre me ha gustado el mundo de la informática. Me atrae
+                cómo la tecnología puede transformar ideas en soluciones útiles
+                y creativas para el día a día. Comencé a programar por
+                iniciativa propia, motivado por mis ganas de progresar y no
+                quedarme estancado. Investigar, probar y entender cómo funciona
+                todo detrás de una pantalla se volvió algo natural para mí. Con
+                el tiempo, descubrí que disfruto especialmente del desarrollo
+                web. Me gusta ver cómo cada detalle visual y funcional cobra
+                vida, y siempre busco formas de seguir aprendiendo y superándome
+                con cada nuevo proyecto.
             </p>
         </div>
 
-        <!-- Div for general info graduation -->
+        <!-- Divs of exp, Education, location, calendar -->
         <div
-            class="row-start-2 w-96 h-32 bg-[#E8D7F1] rounded-2xl shadow-[3px_6px_4px_0px] shadow-[#A167A5]/50 grid grid-rows-2 items-center px-7 pb-5"
+            class="flex flex-col items-center justify-items-center mt-10 gap-5
+            md:flex md:flex-row md:flex-wrap md:gap-10"
         >
-            <div class="flex gap-4 text-[#0E273C]">
-                <Graduation />
-                <h4 class="text-3xl">Educación</h4>
-            </div>
-            <p class="text-xl text-[#333333]">
-                Grado Medio sistemas microinformáticos y redes
-            </p>
-        </div>
+            <!-- Div for general info exp -->
+            <div
+                class="w-96 h-32 bg-[#E8D7F1] rounded-2xl shadow-[3px_6px_4px_0px] shadow-[#A167A5]/50 grid grid-rows-2 items-center px-7 pb-5"
+            >
+                <div class="flex gap-4">
+                    <Exp />
+                    <h4 class="text-3xl text-[#0E273C]">Experiencia</h4>
+                </div>
 
-        <!-- Div for general info location-->
-        <div
-            class="row-start-3 w-96 h-32 bg-[#E8D7F1] rounded-2xl shadow-[3px_6px_4px_0px] shadow-[#A167A5]/50 grid grid-rows-2 items-center px-7 pb-5"
-        >
-            <div class="flex gap-4">
-                <Location />
-                <h4 class="text-3xl text-[#0E273C]">Localización</h4>
+                <p class="text-xl text-[#333333]">
+                    1+ Año desarrollando aplicaciones web
+                </p>
             </div>
-            <p class="text-xl text-[#333333]">Murcia, España</p>
-        </div>
 
-        <!-- Div for general info calendar-->
-        <div
-            class="row-start-4 w-96 h-32 bg-[#E8D7F1] rounded-2xl shadow-[3px_6px_4px_0px] shadow-[#A167A5]/50 grid grid-rows-2 items-center px-7 pb-5"
-        >
-            <div class="flex gap-4">
-                <Calendar />
-                <h4 class="text-3xl text-[#0E273C]">Disponibilidad</h4>
+            <!-- Div for general info graduation -->
+            <div
+                class="w-96 h-32 bg-[#E8D7F1] rounded-2xl shadow-[3px_6px_4px_0px] shadow-[#A167A5]/50 grid grid-rows-2 items-center px-7 pb-5"
+            >
+                <div class="flex gap-4 text-[#0E273C]">
+                    <Graduation />
+                    <h4 class="text-3xl">Educación</h4>
+                </div>
+                <p class="text-xl text-[#333333]">
+                    Grado Medio sistemas microinformáticos y redes
+                </p>
             </div>
-            <p class="text-xl text-[#333333]">Abierto a nuevos proyectos</p>
+
+            <!-- Div for general info location-->
+            <div
+                class="w-96 h-32 bg-[#E8D7F1] rounded-2xl shadow-[3px_6px_4px_0px] shadow-[#A167A5]/50 grid grid-rows-2 items-center px-7 pb-5"
+            >
+                <div class="flex gap-4">
+                    <Location />
+                    <h4 class="text-3xl text-[#0E273C]">Localización</h4>
+                </div>
+                <p class="text-xl text-[#333333]">Murcia, España</p>
+            </div>
+
+            <!-- Div for general info calendar-->
+            <div
+                class="w-96 h-32 bg-[#E8D7F1] rounded-2xl shadow-[3px_6px_4px_0px] shadow-[#A167A5]/50 grid grid-rows-2 items-center px-7 pb-5"
+            >
+                <div class="flex gap-4">
+                    <Calendar />
+                    <h4 class="text-3xl text-[#0E273C]">Disponibilidad</h4>
+                </div>
+                <p class="text-xl text-[#333333]">Abierto a nuevos proyectos</p>
+            </div>
         </div>
     </div>
 </section>
