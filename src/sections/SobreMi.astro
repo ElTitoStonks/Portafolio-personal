@@ -11,6 +11,7 @@ import Calendar from "../../public/images/icons/sobre-mi/Calendar.astro";
         <hr class="w-1/2 mx-auto my-4 border-t-2 border-[#A167A5]" />
     </div>
 
+    <!-- Div for introducion -->
     <div>
         <h3 class="text-3xl text-[#A167A5] font-bold mb-1">Mi historia</h3>
         <p class="text-base">
@@ -26,39 +27,57 @@ import Calendar from "../../public/images/icons/sobre-mi/Calendar.astro";
         </p>
     </div>
 
+    <!-- Divs of exp, Education, location, calendar -->
     <div
         class="grid grid-cols-1 grid-rows-4 items-center justify-items-center mt-4 gap-4"
     >
+        <!-- Div for general info exp -->
         <div
-            class="row-start-1 w-96 h-32 bg-[#E8D7F1] rounded-2xl shadow-[3px_6px_4px_0px] shadow-[#A167A5]/50"
+            class="row-start-1 w-96 h-32 bg-[#E8D7F1] rounded-2xl shadow-[3px_6px_4px_0px] shadow-[#A167A5]/50 grid grid-rows-2 items-center px-7 pb-5"
         >
-            <Exp />
-            <h4>Experiencia</h4>
-            <p>1+ Año desarrollando aplicaciones web</p>
+            <div class="flex gap-4">
+                <Exp />
+                <h4 class="text-3xl text-[#0E273C]">Experiencia</h4>
+            </div>
+
+            <p class="text-xl text-[#333333]">
+                1+ Año desarrollando aplicaciones web
+            </p>
         </div>
 
+        <!-- Div for general info graduation -->
         <div
-            class="row-start-2 w-96 h-32 bg-[#E8D7F1] rounded-2xl shadow-[3px_6px_4px_0px] shadow-[#A167A5]/50"
+            class="row-start-2 w-96 h-32 bg-[#E8D7F1] rounded-2xl shadow-[3px_6px_4px_0px] shadow-[#A167A5]/50 grid grid-rows-2 items-center px-7 pb-5"
         >
-            <Graduation />
-            <h4>Educación</h4>
-            <p>Grado Medio sistemas microinformáticos y redes</p>
+            <div class="flex gap-4 text-[#0E273C]">
+                <Graduation />
+                <h4 class="text-3xl">Educación</h4>
+            </div>
+            <p class="text-xl text-[#333333]">
+                Grado Medio sistemas microinformáticos y redes
+            </p>
         </div>
 
+        <!-- Div for general info location-->
         <div
-            class="row-start-3 w-96 h-32 bg-[#E8D7F1] rounded-2xl shadow-[3px_6px_4px_0px] shadow-[#A167A5]/50"
+            class="row-start-3 w-96 h-32 bg-[#E8D7F1] rounded-2xl shadow-[3px_6px_4px_0px] shadow-[#A167A5]/50 grid grid-rows-2 items-center px-7 pb-5"
         >
-            <Location />
-            <h4>Localización</h4>
-            <p>Murcia, España</p>
+            <div class="flex gap-4">
+                <Location />
+                <h4 class="text-3xl text-[#0E273C]">Localización</h4>
+            </div>
+            <p class="text-xl text-[#333333]">Murcia, España</p>
         </div>
 
+        <!-- Div for general info calendar-->
         <div
-            class="row-start-4 w-96 h-32 bg-[#E8D7F1] rounded-2xl shadow-[3px_6px_4px_0px] shadow-[#A167A5]/50"
+            class="row-start-4 w-96 h-32 bg-[#E8D7F1] rounded-2xl shadow-[3px_6px_4px_0px] shadow-[#A167A5]/50 grid grid-rows-2 items-center px-7 pb-5"
         >
-            <Calendar />
-            <h4>Disponibilidad</h4>
-            <p>Abierto a nuevos proyectos</p>
+            <div class="flex gap-4">
+                <Calendar />
+                <h4 class="text-3xl text-[#0E273C]">Disponibilidad</h4>
+            </div>
+            <p class="text-xl text-[#333333]">Abierto a nuevos proyectos</p>
         </div>
     </div>
 </section>
