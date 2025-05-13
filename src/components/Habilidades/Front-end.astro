@@ -1,0 +1,28 @@
+---
+import Develop from "../../../public/images/icons/Skills/Develop.astro";
+import habilidades from "../../moks/habilidades.json";
+---
+
+<div
+    class="bg-[#A167A5] h-32 md:h-40 flex flex-col justify-center px-5 rounded-2xl md:grow"
+>
+    <!-- Title -->
+    <div
+        class="grow flex items-center text-[#FFFFFF] gap-5 text-3xl md:text-4xl"
+    >
+        <Develop />
+        <h2>{habilidades[0].title}</h2>
+    </div>
+    <!-- Box for language -->
+    <div
+        class="grow flex items-center gap-2 text-base md:text-lg text-[#0E273C]"
+    >
+        {
+            habilidades[0].habilidades.map((h) => (
+                <div class="bg-[#D3BCCC] p-2 md:p-5 rounded-xl text-[#0E273C]">
+                    <p>{h.habilidad}</p>
+                </div>
+            ))
+        }
+    </div>
+</div>

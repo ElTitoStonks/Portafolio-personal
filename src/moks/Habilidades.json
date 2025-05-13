@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Frontend Developer",
+        "habilidades": [
+            {
+                "id": 1,
+                "habilidad": "HTML"
+            },
+            {
+                "id": 2,
+                "habilidad": "CSS"
+            },
+            {
+                "id": 3,
+                "habilidad": "Tailwind"
+            },
+            {
+                "id": 4,
+                "habilidad": "React"
+            },
+            {
+                "id": 5,
+                "habilidad": "JavaScript"
+            },
+            {
+                "id": 6,
+                "habilidad": "Astro"
+            }
+        ]
+    },
+    {
+        "title": "UI/UX Designer",
+        "habilidades": [
+            {
+                "id": 1,
+                "habilidad": "Figma"
+            },
+            {
+                "id": 2,
+                "habilidad": "Responsive Design"
+            }
+        ]
+    },
+    {
+        "title": "Otra habilidades",
+        "habilidades": [
+            {
+                "id": 1,
+                "habilidad": "Git"
+            },
+            {
+                "id": 2,
+                "habilidad": "GitHub"
+            }
+        ]
+    }
+]
