@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "Experiencia",
+        "description": "1+ Año desarrollando aplicaciones web"
+    },
+    {
+        "id": 2,
+        "title": "Educación",
+        "description": "Grado Medio sistemas microinformáticos y redes"
+    },
+    {
+        "id": 3,
+        "title": "Localización",
+        "description": "Murcia, España"
+    },
+    {
+        "id": 4,
+        "title": "Disponibilidad",
+        "description": "Abierto a nuevos proyectos"
+    }
+]

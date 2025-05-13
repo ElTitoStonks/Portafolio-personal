@@ -1,0 +1,61 @@
+---
+import Calendar from "../../../public/images/icons/sobre-mi/Calendar.astro";
+import Exp from "../../../public/images/icons/sobre-mi/Exp.astro";
+import Graduation from "../../../public/images/icons/sobre-mi/Graduation.astro";
+import Location from "../../../public/images/icons/sobre-mi/Location.astro";
+---
+
+<div
+            class="flex flex-col items-center justify-items-center mt-10 pb-14 gap-5
+            md:flex md:flex-row md:flex-wrap md:gap-10"
+        >
+            <!-- Div for general info exp -->
+            <div
+                class="w-96 h-32 bg-[#E8D7F1] rounded-2xl shadow-[3px_6px_4px_0px] shadow-[#A167A5]/50 grid grid-rows-2 items-center px-7 pb-5"
+            >
+                <div class="flex gap-4">
+                    <Exp />
+                    <h4 class="text-3xl text-[#0E273C]">Experiencia</h4>
+                </div>
+
+                <p class="text-xl text-[#333333]">
+                    1+ Año desarrollando aplicaciones web
+                </p>
+            </div>
+
+            <!-- Div for general info graduation -->
+            <div
+                class="w-96 h-32 bg-[#E8D7F1] rounded-2xl shadow-[3px_6px_4px_0px] shadow-[#A167A5]/50 grid grid-rows-2 items-center px-7 pb-5"
+            >
+                <div class="flex gap-4 text-[#0E273C]">
+                    <Graduation />
+                    <h4 class="text-3xl">Educación</h4>
+                </div>
+                <p class="text-xl text-[#333333]">
+                    Grado Medio sistemas microinformáticos y redess
+                </p>
+            </div>
+
+            <!-- Div for general info location-->
+            <div
+                class="w-96 h-32 bg-[#E8D7F1] rounded-2xl shadow-[3px_6px_4px_0px] shadow-[#A167A5]/50 grid grid-rows-2 items-center px-7 pb-5"
+            >
+                <div class="flex gap-4">
+                    <Location />
+                    <h4 class="text-3xl text-[#0E273C]">Localización</h4>
+                </div>
+                <p class="text-xl text-[#333333]">Murcia, España</p>
+            </div>
+
+            <!-- Div for general info calendar-->
+            <div
+                class="w-96 h-32 bg-[#E8D7F1] rounded-2xl shadow-[3px_6px_4px_0px] shadow-[#A167A5]/50 grid grid-rows-2 items-center px-7 pb-5"
+            >
+                <div class="flex gap-4">
+                    <Calendar />
+                    <h4 class="text-3xl text-[#0E273C]">Disponibilidad</h4>
+                </div>
+                <p class="text-xl text-[#333333]">Abierto a nuevos proyectos</p>
+            </div>
+        </div>
+    </div>
