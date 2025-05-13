@@ -1,80 +1,98 @@
 ---
+import BucketDesign from "../../public/images/icons/Skills/BucketDesign.astro";
 import Develop from "../../public/images/icons/Skills/Develop.astro";
+import Nut from "../../public/images/icons/Skills/Nut.astro";
 ---
 
-<section class="h-dvh bg-[#0E273C] w-full px-10 pt-4">
+<section class="h-[40dvh] lg:h-[30dvh] bg-[#0E273C] w-full px-10 pt-4">
     <!-- Introduction -->
     <div>
-        <h2 class="text-center text-4xl font-bold md:text-5xl">Habilidades</h2>
+        <h2 class="text-center text-4xl font-bold md:text-5xl text-[#FFFFFF]">
+            Habilidades
+        </h2>
         <hr
             class="w-1/2 md:w-1/4 mx-auto my-4 border-t-2 border-[#A167A5] md:mb-10"
         />
     </div>
 
     <!-- Skills -->
-    <div class="flex flex-col gap-4">
+    <div class="flex flex-col gap-4 md:flex-row md:flex-wrap">
         <div
-            class="bg-[#A167A5] h-32 flex flex-col justify-center px-5 rounded-2xl"
+            class="bg-[#A167A5] h-32 md:h-40 flex flex-col justify-center px-5 rounded-2xl md:grow"
         >
             <!-- Title -->
-            <div class="grow flex items-center">
+            <div
+                class="grow flex items-center text-[#FFFFFF] gap-5 text-3xl md:text-4xl"
+            >
                 <Develop />
                 <h2>Frontend Development</h2>
             </div>
             <!-- Box for language -->
-            <div class="grow flex items-center gap-2">
-                <div class="bg-[#D3BCCC] p-2 rounded-xl">
+            <div
+                class="grow flex items-center gap-2 text-base md:text-lg text-[#0E273C]"
+            >
+                <div class="bg-[#D3BCCC] p-2 md:p-5 rounded-xl text-[#0E273C]">
                     <p>HTML5</p>
                 </div>
-                <div class="bg-[#D3BCCC] p-2 rounded-xl">
+                <div class="bg-[#D3BCCC] p-2 md:p-5 rounded-xl text-[#0E273C]">
                     <p>CSS</p>
                 </div>
-                <div class="bg-[#D3BCCC] p-2 rounded-xl">
+                <div class="bg-[#D3BCCC] p-2 md:p-5 rounded-xl text-[#0E273C]">
                     <p>Tailwind</p>
                 </div>
-                <div class="bg-[#D3BCCC] p-2 rounded-xl">
+                <div class="bg-[#D3BCCC] p-2 md:p-5 rounded-xl text-[#0E273C]">
                     <p>JavaScript</p>
                 </div>
-                <div class="bg-[#D3BCCC] p-2 rounded-xl">
+                <div class="bg-[#D3BCCC] p-2 md:p-5 rounded-xl text-[#0E273C]">
                     <p>React</p>
                 </div>
-                <div class="bg-[#D3BCCC] p-2 rounded-xl">
+                <div class="bg-[#D3BCCC] p-2 md:p-5 rounded-xl text-[#0E273C]">
                     <p>Astro</p>
                 </div>
             </div>
         </div>
 
         <div
-            class="bg-[#A167A5] h-32 flex flex-col justify-center px-5 rounded-2xl"
+            class="bg-[#A167A5] h-32 md:h-40 flex flex-col justify-center px-5 rounded-2xl md:grow"
         >
             <!-- Title -->
-            <div class="grow flex items-center">
+            <div class="grow flex items-center text-[#FFFFFF] gap-5 text-3xl">
+                <BucketDesign />
                 <h2>UI/UX design</h2>
             </div>
             <!-- Box for language -->
             <div class="grow flex items-center gap-2">
-                <div class="bg-[#D3BCCC] p-2 rounded-xl">
+                <div
+                    class="bg-[#D3BCCC] p-2 md:p-5 rounded-xl text-base md:text-lg text-[#0E273C]"
+                >
                     <p>Figma</p>
                 </div>
-                <div class="bg-[#D3BCCC] p-2 rounded-xl">
+                <div
+                    class="bg-[#D3BCCC] p-2 md:p-5 rounded-xl text-base md:text-lg text-[#0E273C]"
+                >
                     <p>Responsive design</p>
                 </div>
             </div>
         </div>
 
         <div
-            class="bg-[#A167A5] h-32 flex flex-col justify-center px-5 rounded-2xl"
+            class="bg-[#A167A5] h-32 md:h-40 flex flex-col justify-center px-5 rounded-2xl md:grow"
         >
             <!-- Title -->
-            <div class="grow flex items-center">
+            <div class="grow flex items-center text-[#FFFFFF] gap-5 text-3xl">
+                <Nut />
                 <h2>Otras habilidades</h2>
             </div>
             <!-- Box for language -->
             <div class="grow flex items-center gap-2">
-                <div class="bg-[#D3BCCC] p-2 rounded-xl">
+                <div
+                    class="bg-[#D3BCCC] p-2 md:p-5 rounded-xl text-base md:text-lg text-[#0E273C]"
+                >
                     <p>Git</p>
                 </div>
-                <div class="bg-[#D3BCCC] p-2 rounded-xl">
+                <div
+                    class="bg-[#D3BCCC] p-2 md:p-5 rounded-xl text-base md:text-lg text-[#0E273C]"
+                >
                     <p>GitHub</p>
                 </div>
             </div>
