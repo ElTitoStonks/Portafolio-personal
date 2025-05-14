@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "App del tiempo",
+        "description": "Aplicación responsive que da datos reales del tiempo en España. Esos datos los proporciona la API del el-tiempo.net",
+        "language": [
+            {
+                "title": "HTML"
+            },
+            {
+                "title": "Tailwind"
+            },
+            {
+                "title": "React"
+            }
+        ],
+        "image": "../../public/images/eltiempoAPP.webp",
+        "link": "",
+        "github": ""
+    },
+    {
+        "id": 2,
+        "title": "To do App",
+        "description": "Aplicación responsive que permite al usuario almacenar información, dicha información se puede almacenar en el localStorage.",
+        "language": [
+            {
+                "title": "HTML"
+            },
+            {
+                "title": "Tailwind"
+            },
+            {
+                "title": "React"
+            },
+            {
+                "title": "LocalStorage"
+            }
+        ],
+        "image": "",
+        "link": "../../public/images/to-doAPP.webp",
+        "github": ""
+    },
+    {
+        "id": 3,
+        "title": "Portafolio personal",
+        "description": "Web dónde tengo el contenido que he ido realizando a lo largo de mi carrera como programador frontend",
+        "language": [
+            {
+                "title": "HTML"
+            },
+            {
+                "title": "Tailwind"
+            },
+            {
+                "title": "React"
+            }
+        ],
+        "image": "../../public/images/Graduation.webp",
+        "link": "",
+        "github": ""
+    }
+]
